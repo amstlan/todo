@@ -1,24 +1,19 @@
-# todo_list
+1. 使用vue2编写的本地记事本，记录在本地cookie里面，所以换浏览器数据会消失
 
-## Project setup
-```
-npm install
-```
+2. 记事本功能，功能包括添加待处理事件，修改事件，单独删除和批量删除事件等等
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+3. 使用vue的脚手架，简单的样式
 
-### Compiles and minifies for production
-```
-npm run build
-```
+4. 使用了bus总线，和通过第三方包pubsubjs实现发布订阅，实现组件间通信
 
-### Lints and fixes files
-```
-npm run lint
-```
+5. 要用的话先整一个node.js，配好环境变量（或者不配），把这个项目下载下来，进入后输入以下命令大概就可以了
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+   ```
+   npm run serve
+   ```
+
+
+
+
+
+PS.服务器另外有用，且资源有限，这个项目先不挂上去了
